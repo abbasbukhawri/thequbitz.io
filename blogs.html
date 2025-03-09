@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Qubit - A platform for tech enthusiasts to write, share, and discuss the latest trends in technology.">
+  <meta name="keywords" content="tech blog, technology news, AI, cybersecurity, programming">
+  <meta name="author" content="Qubit Team">
+  <title>Qubit | Tech Blogging Platform</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">THE QUBITZ</a>
+      <!-- Add the 'nav-menu' wrapper -->
+      <ul class="nav-links nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="discussions.html">Discussions</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search blogs..." aria-label="Search blogs">
+        <button aria-label="Search"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="auth-buttons">
+        <a href="login.html" class="login">Log In</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+      <!-- Hamburger for mobile -->
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+      
+ <!-- Blog Header with Search and Filters -->
+ <header class="blog-header">
+  <h2>Tech News & Insights</h2>
+    <div class="filters">
+      <label for="category">Category:</label>
+      <select id="category">
+        <option value="all">All</option>
+        <option value="ai">AI</option>
+        <option value="cybersecurity">Cybersecurity</option>
+        <option value="development">Software Development</option>
+      </select>
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="recent">Most Recent</option>
+        <option value="popular">Most Popular</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<!-- Blog Section -->
+<section class="blog-grid">
+  <!-- Featured or Trending Blog -->
+  <article class="featured-blog">
+    <img src="cyber2.jpg" alt="Featured Blog Image">
+    <h3>Why Quantum Computing is the Future</h3>
+    <p>Quantum computing is set to revolutionize industries across the globe. Learn more about its future potential.</p>
+    <p class="author">By <strong>John Doe</strong> on January 5, 2025 &middot; 5 min read</p>
+    <div class="tags">
+      <span>#QuantumComputing</span>
+      <span>#TechFuture</span>
+    </div>
+    <a href="#" class="read-more">Read more</a>
+  </article>
+
+  <!-- Regular Blog Posts -->
+  <article class="blog-post">
+    <img src="ai1.jpg" alt="AI Blog Image">
+    <h3>AI in Everyday Life: What’s Next?</h3>
+    <p>Artificial Intelligence is already a part of our lives. Learn about the exciting innovations on the horizon.</p>
+    <p class="author">By <strong>Jane Smith</strong> on January 3, 2025 &middot; 4 min read</p>
+    <div class="tags">
+      <span>#AI</span>
+      <span>#TechTrends</span>
+    </div>
+    <a href="#" class="read-more">Read more</a>
+  </article>
+
+  <!-- Add more blog articles similarly -->
+
+</section>
+
+<!-- Related Posts Section -->
+<section class="related-posts">
+  <h3>Related Posts</h3>
+  <div class="related-grid">
+    <article class="related-post">
+      <img src="bp2.jpg" alt="Related Post Image">
+      <h4>5G Networks: What to Expect in 2025</h4>
+      <a href="#" class="read-more">Read more</a>
+    </article>
+    <article class="related-post">
+      <img src="bp3.jpg" alt="Related Post Image">
+      <h4>Top Cybersecurity Trends for the Coming Decade</h4>
+      <a href="#" class="read-more">Read more</a>
+    </article>
+    <!-- More related posts -->
+  </div>
+</section>
+
+<!-- Pagination -->
+<div class="pagination">
+  <a href="#" class="prev">&laquo; Previous</a>
+  <span>Page 1 of 10</span>
+  <a href="#" class="next">Next &raquo;</a>
+</div>
+
+ <!-- AI Assistant Button -->
+ <div class="ai-assistant">
+    <button class="ai-button" aria-label="AI Assistant">
+      <i class="fas fa-robot"></i>
+    </button>
+    <p>Ask GPT</p>
+  </div>
+
+
+ <!-- Footer -->
+ <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Qubit</h3>
+        <p>Qubit is a platform for tech enthusiasts to read, write, and discuss trending tech news and blogs.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Discussions</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Join the Community</h3>
+        <div class="auth-buttons">
+          <a href="login.html">login In Now</a>
+          <a href="#">Join the Community</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Qubit. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    // Carousel Initialization
+    document.addEventListener('DOMContentLoaded', function () {
+      const carousel = document.querySelector('.carousel');
+      if (carousel) {
+        $('.carousel').slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+      }
+    });
+  </script>
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hamburger.addEventListener('click', () => {
+          navMenu.classList.toggle('active');
+        });
+      });
+    </script>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Qubit - A platform for tech enthusiasts to write, share, and discuss the latest trends in technology.">
+  <meta name="keywords" content="tech blog, technology news, AI, cybersecurity, programming">
+  <meta name="author" content="Qubit Team">
+  <title>Qubit | Tech Blogging Platform</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <a href="#" class="logo">THE QUBITZ</a>
+          <!-- Add the 'nav-menu' wrapper -->
+          <ul class="nav-links nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="discussions.html">Discussions</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+          <div class="auth-buttons">
+            <a href="login.html" class="login">Log In</a>
+            <a href="#" class="signup">Sign Up</a>
+          </div>
+          <!-- Hamburger for mobile -->
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+     
+      <div class="auth-buttons">
+        <a href="login.html" class="login">Log In</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+      <!-- Hamburger for mobile -->
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+   <div class="outer-container">
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Login to THE QUBITZ</h2>
+      <form action="#" method="post">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <div class="actions">
+          <button type="submit" class="login-btn">Login</button>
+          <a href="#" class="forgot-password">Forgot password?</a>
+        </div>
+      </form>
+      <p class="signup-link">Don't have an account? <a href="signup.html">Sign up here</a></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  });
+</script>

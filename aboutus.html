@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about Qubit - Our mission, team, and vision for the tech community.">
+  <meta name="keywords" content="about us, qubit, tech blog, team, mission">
+  <meta name="author" content="Qubit Team">
+  <title>About Us | Qubit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">THE QUBITZ</a>
+      <!-- Add the 'nav-menu' wrapper -->
+      <ul class="nav-links nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="discussions.html">Discussions</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+      
+      <div class="auth-buttons">
+        <a href="login.html" class="login">Log In</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+      <!-- Hamburger for mobile -->
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Us Section -->
+  <section class="about-us">
+    <h2>About Qubit</h2>
+    <p>Qubit is a platform where tech enthusiasts from all over the world come together to share insights, write blogs, and discuss the latest developments in the tech industry. Whether you are passionate about AI, cybersecurity, software development, or the latest tech news, Qubit is the place for you.</p>
+    
+    <div class="mission-vision">
+      <div class="mission">
+        <h3>Our Mission</h3>
+        <p>Our mission is to create a global community of tech lovers, providing them with a space to learn, grow, and contribute to the ever-evolving tech landscape. We believe in fostering innovation, curiosity, and knowledge-sharing through an open platform.</p>
+      </div>
+      <div class="vision">
+        <h3>Our Vision</h3>
+        <p>We envision Qubit becoming the leading hub for technology news, insights, and discussion, where experts, learners, and enthusiasts alike can exchange ideas and make meaningful connections across the globe.</p>
+      </div>
+    </div>
+
+    <div class="team-section">
+      <h3>Meet Our Team</h3>
+      <div class="team-members">
+        <div class="team-member">
+          <img src="team-member1.jpg" alt="Team Member 1">
+          <h4>Jane Doe</h4>
+          <p>Founder & CEO</p>
+        </div>
+        <div class="team-member">
+          <img src="team-member2.jpg" alt="Team Member 2">
+          <h4>John Smith</h4>
+          <p>Lead Developer</p>
+        </div>
+        <div class="team-member">
+          <img src="team-member3.jpg" alt="Team Member 3">
+          <h4>Sarah Lee</h4>
+          <p>Community Manager</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Qubit</h3>
+        <p>Qubit is a platform for tech enthusiasts to read, write, and discuss trending tech news and blogs.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Discussions</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Join the Community</h3>
+        <div class="auth-buttons">
+          <a href="login.html">login In Now</a>
+          <a href="#">Join the Community</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Qubit. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hamburger.addEventListener('click', () => {
+          navMenu.classList.toggle('active');
+        });
+      });
+</script>

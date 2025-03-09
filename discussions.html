@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Qubit - A platform for tech enthusiasts to write, share, and discuss the latest trends in technology.">
+  <meta name="keywords" content="tech blog, technology news, AI, cybersecurity, programming">
+  <meta name="author" content="Qubit Team">
+  <title>Qubit | Discussions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">THE QUBITZ</a>
+      <!-- Add the 'nav-menu' wrapper -->
+      <ul class="nav-links nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="discussions.html">Discussions</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search blogs..." aria-label="Search blogs">
+        <button aria-label="Search"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="auth-buttons">
+        <a href="login.html" class="login">Log In</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+      <!-- Hamburger for mobile -->
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  
+  <header class="discussion-header">
+    <h2>Discussions & Topics</h2>
+    <div class="discussion-filters">
+      <label for="discussion-category">Category:</label>
+      <select id="discussion-category">
+        <option value="all">All</option>
+        <option value="ai">AI</option>
+        <option value="cybersecurity">Cybersecurity</option>
+        <option value="development">Software Development</option>
+        <option value="general">General Tech</option>
+      </select>
+      <label for="discussion-sort">Sort by:</label>
+      <select id="discussion-sort">
+        <option value="recent">Most Recent</option>
+        <option value="popular">Most Popular</option>
+        <option value="active">Most Active</option>
+      </select>
+    </div>
+  </header>
+  
+
+  <!-- Discussion List -->
+  <section class="discussion-list">
+    <!-- Single Discussion Post -->
+    <div class="discussion-item">
+      <h3>AI Ethics in 2025</h3>
+      <p>What are your thoughts on AI ethics in 2025? Should we regulate AI more?</p>
+      <div class="discussion-meta">
+        <span><i class="fas fa-user"></i> By John Doe</span>
+        <span>Category: AI</span>
+        <span>Replies: 34</span>
+        <span>Last updated: 2 hours ago</span>
+      </div>
+      <!-- New Upvote/Downvote System -->
+      <div class="voting-system">
+        <button class="upvote"><i class="fas fa-thumbs-up"></i> 120</button>
+        <button class="downvote"><i class="fas fa-thumbs-down"></i> 15</button>
+      </div>
+      <a href="#" class="view-discussion">View Discussion</a>
+    </div>
+
+    <!-- Another Discussion Post -->
+    <div class="discussion-item">
+      <h3>Cybersecurity Trends</h3>
+      <p>What are the latest trends in cybersecurity? How can we stay safe?</p>
+      <div class="discussion-meta">
+        <span><i class="fas fa-user"></i> By Sarah Lee</span>
+        <span>Category: Cybersecurity</span>
+        <span>Replies: 20</span>
+        <span>Last updated: 5 hours ago</span>
+      </div>
+      <!-- Upvote/Downvote -->
+      <div class="voting-system">
+        <button class="upvote"><i class="fas fa-thumbs-up"></i> 89</button>
+        <button class="downvote"><i class="fas fa-thumbs-down"></i> 7</button>
+      </div>
+      <a href="#" class="view-discussion">View Discussion</a>
+    </div>
+
+    <!-- Pagination -->
+    <!-- Pagination -->
+     <div class="pagination">
+    <a href="#" class="prev">&laquo; Previous</a>
+    <span>Page 1 of 10</span>
+    <a href="#" class="next">Next &raquo;</a>
+     </div>
+  
+  </section>
+
+  <!-- Start New Discussion Button -->
+  <section class="start-discussion">
+    <button class="start-discussion-btn">Start a New Discussion</button>
+  </section>
+
+  <!-- AI Assistant Button -->
+  <div class="ai-assistant">
+    <button class="ai-button" aria-label="AI Assistant">
+      <i class="fas fa-robot"></i>
+    </button>
+    <p>Ask GPT</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Qubit</h3>
+        <p>Qubit is a platform for tech enthusiasts to read, write, and discuss trending tech news and blogs.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Discussions</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Join the Community</h3>
+        <div class="auth-buttons">
+          <a href="login.html">log In Now</a>
+          <a href="#">Join the Community</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Qubit. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Placeholder for upvote/downvote functionality
+    document.querySelectorAll('.upvote').forEach(button => {
+      button.addEventListener('click', function() {
+        alert('Upvoted!');
+      });
+    });
+
+    document.querySelectorAll('.downvote').forEach(button => {
+      button.addEventListener('click', function() {
+        alert('Downvoted!');
+      });
+    });
+  </script>
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hamburger.addEventListener('click', () => {
+          navMenu.classList.toggle('active');
+        });
+      });
+    </script>

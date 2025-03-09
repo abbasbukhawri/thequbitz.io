@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Qubit - A platform for tech enthusiasts to write, share, and discuss the latest trends in technology.">
+  <meta name="keywords" content="tech blog, technology news, AI, cybersecurity, programming">
+  <meta name="author" content="Qubit Team">
+  <title>Qubit | Tech Blogging Platform</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">THE QUBITZ</a>
+      <!-- Add the 'nav-menu' wrapper -->
+      <ul class="nav-links nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="discussions.html">Discussions</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search blogs..." aria-label="Search blogs">
+        <button aria-label="Search"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="auth-buttons">
+        <a href="login.html" class="login">Log In</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+      <!-- Hamburger for mobile -->
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Stay Updated with the Latest in Tech</h1>
+      <p class="headline">Trending Now: AI Breakthroughs and Programming Innovations</p>
+      <button class="cta-button" aria-label="Start Writing">Start Writing</button>
+    </div>
+  </section>
+
+  <!-- Trending Section -->
+  <section class="trending-stories">
+    <h2>Trending Topics</h2>
+    <div class="trending-grid">
+      <div class="story-card">
+        <img src="ai1.jpg" alt="AI Story">
+        <h3>AI Dominates 2025 Trends</h3>
+        <p>The next generation of AI is transforming industries globally.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <div class="story-card">
+        <img src="coding1.jpg" alt="Programming Story">
+        <h3>Top Programming Languages</h3>
+        <p>Which languages are shaping the future of software development?</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+      <div class="story-card">
+        <img src="cyber1.jpg" alt="Cybersecurity Story">
+        <h3>Cybersecurity: Key Insights</h3>
+        <p>Learn how to protect your data in a world filled with cyber threats.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending Blogs Carousel -->
+  <section class="trending-blogs">
+    <h2>Trending Blogs</h2>
+    <div class="carousel">
+      <div class="blog-card">
+        <img src="ai2.jpg" alt="AI Blog">
+        <h3>AI in 2024: What's Next?</h3>
+        <p>Explore the future of AI and its impact on industries.</p>
+        <button class="discuss-button" aria-label="Discuss AI Blog">Discuss this Blog</button>
+      </div>
+      <div class="blog-card">
+        <img src="cyber2.jpg" alt="Cybersecurity Blog">
+        <h3>Cybersecurity Trends</h3>
+        <p>Learn about the latest in cybersecurity and how to stay safe.</p>
+        <button class="discuss-button" aria-label="Discuss Cybersecurity Blog">Discuss this Blog</button>
+      </div>
+      <div class="blog-card">
+        <img src="coding3.jpg" alt="Programming Blog">
+        <h3>Programming Languages to Watch</h3>
+        <p>Discover the top programming languages for 2024.</p>
+        <button class="discuss-button" aria-label="Discuss Programming Blog">Discuss this Blog</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Discussions -->
+  <section class="recent-discussions">
+    <h2>Recent Discussions</h2>
+    <div class="discussion-list">
+      <div class="discussion-item">
+        <img src="https://source.unsplash.com/300x200/?ai,ethics" alt="AI Ethics Debate">
+        <h3>AI Ethics Debate</h3>
+        <p>Join the conversation on the ethical implications of AI.</p>
+        <a href="#" class="read-more" aria-label="Read more about AI Ethics Debate">Read More</a>
+      </div>
+      <div class="discussion-item">
+        <img src="https://source.unsplash.com/300x200/?cybersecurity,hacking" alt="Cybersecurity Discussion">
+        <h3>Cybersecurity Best Practices</h3>
+        <p>Share your tips and tricks for staying secure online.</p>
+        <a href="#" class="read-more" aria-label="Read more about Cybersecurity Best Practices">Read More</a>
+      </div>
+      <div class="discussion-item">
+        <img src="https://source.unsplash.com/300x200/?javascript,code" alt="JavaScript Discussion">
+        <h3>Future of JavaScript</h3>
+        <p>Discuss the latest updates and trends in JavaScript.</p>
+        <a href="#" class="read-more" aria-label="Read more about Future of JavaScript">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Author Spotlight -->
+  <section class="author-spotlight">
+    <h2>Featured Authors</h2>
+    <div class="author-list">
+      <div class="author-card">
+        <img src="aiexpert.jpg" alt="AI Expert">
+        <h3>Abbas Bukhari</h3>
+        <p>AI & Machine Learning Expert</p>
+        <a href="#" class="view-blogs" aria-label="View Blogs by John Doe">View Blogs</a>
+      </div>
+      <div class="author-card">
+        <img src="bp3.jpg" alt="Cybersecurity Expert">
+        <h3>Hamza Saeed</h3>
+        <p>Quantum Computing Expert</p>
+        <a href="#" class="view-blogs" aria-label="View Blogs by Jane Smith">View Blogs</a>
+      </div>
+      <div class="author-card">
+        <img src="https://source.unsplash.com/100x100/?person,programming" alt="Mike Johnson Full-Stack Developer">
+        <h3>Mike Johnson</h3>
+        <p>Full-Stack Developer</p>
+        <a href="#" class="view-blogs" aria-label="View Blogs by Mike Johnson">View Blogs</a>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- AI Assistant Button -->
+  <div class="ai-assistant">
+    <button class="ai-button" aria-label="AI Assistant">
+      <i class="fas fa-robot"></i>
+    </button>
+    <p>Ask GPT</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Qubit</h3>
+        <p>Qubit is a platform for tech enthusiasts to read, write, and discuss trending tech news and blogs.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Discussions</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Join the Community</h3>
+        <div class="auth-buttons">
+          <a href="login.html">log In Now</a>
+          <a href="#">Join the Community</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Qubit. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    // Carousel Initialization
+    document.addEventListener('DOMContentLoaded', function () {
+      const carousel = document.querySelector('.carousel');
+      if (carousel) {
+        $('.carousel').slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+      }
+    });
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  });
+
+  </script>
+</body>
+</html>
